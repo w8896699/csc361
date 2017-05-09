@@ -1,0 +1,4 @@
+Changes:
+change server.c
+I used fscanf(file,"%ls",content); which only gives me one line of the html file
+now i am using fread(content, MAX_REC_LEN, 1, file); which gives me full content.
